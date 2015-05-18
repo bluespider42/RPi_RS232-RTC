@@ -1,0 +1,10 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 18/05/2015 10:52:14
+
+BeginCmp
+TimeStamp = /5515D395/5516AE26;
+Reference = J2;
+ValeurCmp = RPi_GPIO;
+IdModule  = RPi_Hat:Pin_Header_Straight_2x20;
+EndCmp
+
+EndListe
