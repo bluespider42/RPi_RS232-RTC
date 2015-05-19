@@ -1,18 +1,20 @@
-update=18/05/2015 14:50:18
+update=19/05/2015 17:31:20
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=C:/xesscorp/KiCad/page_layouts/title_block_only.kicad_wks
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0.6
-PadDrillOvalY=0.6
-PadSizeH=1.5
-PadSizeV=1.5
+LastNetListRead=RPi_RTC_RS232.net
+UseCmpFile=0
+PadDrill=2.75
+PadDrillOvalY=2.75
+PadSizeH=2.75
+PadSizeV=2.75
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
@@ -24,8 +26,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../KiCad/libraries;../KiCad/templates;../kicad-library
@@ -66,3 +66,4 @@ LibName33=maxim/maxim-3
 LibName34=maxim/maxim-4
 LibName35=D:/obic_git/Electronics/kicad-library/library/maxim
 LibName36=misc/Ben
+LibName37=maxim/DS2715

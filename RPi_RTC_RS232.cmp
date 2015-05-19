@@ -1,10 +1,87 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 18/05/2015 10:52:14
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 19/05/2015 11:54:55
+
+BeginCmp
+TimeStamp = /5559D4CA/5559EFFD;
+Reference = BT1;
+ValeurCmp = Battery;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5559D4CA/5559F187;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B01F7/555B0481;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B01F7/555B0AA3;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B01F7/555B0B0B;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B01F7/555B0A1B;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B01F7/555B0A79;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B01F7/555B06BA;
+Reference = IC1;
+ValeurCmp = MAX3222;
+IdModule  = maxim-3-DIL18;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B01F7/555B1A04;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = ;
+EndCmp
 
 BeginCmp
 TimeStamp = /5515D395/5516AE26;
 Reference = J2;
 ValeurCmp = RPi_GPIO;
 IdModule  = RPi_Hat:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /5559D4CA/5559F0B5;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5559D4CA/5559EE2D;
+Reference = U1;
+ValeurCmp = DS3232;
+IdModule  = ;
 EndCmp
 
 EndListe
