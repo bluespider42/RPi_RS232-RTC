@@ -34,12 +34,13 @@ LIBS:maxim-3
 LIBS:maxim-4
 LIBS:maxim
 LIBS:Ben
+LIBS:DS2715
 LIBS:RPi_RTC_RS232-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -49,16 +50,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1400 1400 1000 1000
-U 5515D395
-F0 "RPi_GPIO" 60
-F1 "RPi_GPIO.sch" 60
-$EndSheet
-$Sheet
-S 3700 1350 1450 1200
-U 5559D4CA
-F0 "RTC" 60
-F1 "RTC.sch" 60
-$EndSheet
+$Comp
+L DS2715 U?
+U 1 1 555CBA52
+P 5800 3750
+F 0 "U?" H 5800 3650 50  0000 C CNN
+F 1 "DS2715" H 5800 3850 50  0000 C CNN
+F 2 "MODULE" H 5800 3750 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5800 3750 50  0001 C CNN
+	1    5800 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -34,12 +34,13 @@ LIBS:maxim-3
 LIBS:maxim-4
 LIBS:maxim
 LIBS:Ben
+LIBS:DS2715
 LIBS:RPi_RTC_RS232-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 6
 Title ""
 Date ""
 Rev ""

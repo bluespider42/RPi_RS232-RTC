@@ -34,12 +34,13 @@ LIBS:maxim-3
 LIBS:maxim-4
 LIBS:maxim
 LIBS:Ben
+LIBS:DS2715
 LIBS:RPi_RTC_RS232-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -86,4 +87,16 @@ Wire Wire Line
 	8100 1500 6750 1500
 Wire Wire Line
 	6750 1600 8100 1600
+$Sheet
+S 2050 4450 1750 1700
+U 555B8D90
+F0 "Power" 60
+F1 "Power.sch" 60
+$EndSheet
+$Sheet
+S 5050 4400 2100 1750
+U 555CBA49
+F0 "BatteryNiMH" 60
+F1 "BatteryNiMH.sch" 60
+$EndSheet
 $EndSCHEMATC
