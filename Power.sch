@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -50,4 +50,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 5150 2800 1650 1900
+U 555DA4E8
+F0 "PowerSwitch" 60
+F1 "PowerSwitch.sch" 60
+F2 "+5V_In" I L 5150 3000 60 
+F3 "+5V_Out" O R 6800 3000 60 
+$EndSheet
 $EndSCHEMATC
